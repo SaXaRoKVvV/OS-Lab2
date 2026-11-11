@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>MatMul.App</RootNamespace>
+    <AssemblyName>matmul</AssemblyName>
+
+    <!-- Настройки для честных замеров -->
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <!-- сразу полностью оптимизированный JIT-код, без "прогрева" многоуровневой компиляции -->
+    <TieredCompilation>false</TieredCompilation>
+    <ServerGarbageCollector>false</ServerGarbageCollector>
+    <ConcurrentGarbageCollection>false</ConcurrentGarbageCollection>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MatMul.Core\MatMul.Core.csproj" />
+  </ItemGroup>
+
+</Project>

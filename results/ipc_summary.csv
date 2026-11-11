@@ -1,0 +1,13 @@
+experiment,size,variant,threads,mean_seconds,speedup,efficiency
+ipc,500,receive_total,16,0.069149,,
+ipc,500,generation,16,0.007162,,
+ipc,500,transfer,16,0.061987,,
+ipc,500,multiply,16,0.015263,,
+ipc,1000,receive_total,16,0.081009,,
+ipc,1000,generation,16,0.017815,,
+ipc,1000,transfer,16,0.063194,,
+ipc,1000,multiply,16,0.106653,,
+ipc,2000,receive_total,16,0.141952,,
+ipc,2000,generation,16,0.062021,,
+ipc,2000,transfer,16,0.080738,,
+ipc,2000,multiply,16,0.870735,,
